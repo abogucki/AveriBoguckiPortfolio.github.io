@@ -1,0 +1,68 @@
+@ charset "UTF-8";
+
+body {
+	background: silver;
+	font: 100% Courier;
+}
+
+h1 {
+	font: 300% Courier;
+	color: Maroon;
+}
+
+h2 {
+	font:200% courier;
+	color: maroon;
+}
+
+p {
+	color: maroon;
+	font: 100% Courier;
+}
+
+#wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0 50px;
+	text-align: left;
+	position: relative;
+}
+
+header#Image {
+	height: 185px;
+	background: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg) no-repeat 25px center;
+	padding: 75px 0 0 300px;
+	position: relative;
+	border-bottom: 2px solid #7f7f7f;
+	margin-bottom: 16px;
+}
+
+header#mainHeader div {
+	margin-top: 16px;
+}
+
+header#mainHeader ul {
+	list-style: none;
+	float: left;
+}
+
+header#mainHeader ul li {
+	float: left;
+}
+
+header#mainHeader ul li a {
+	font-family: courier;
+	font-size: 20px;
+	color: maroon;
+	padding: 0 20px;
+	border-right: 1px solid #000;
+	text-decoration: none;
+}
+
+header#mainHeader ul li a.last {
+	border-right: none;
+}
+
+header#mainHeader ul li a:hover {
+	color: blue;
+}	
