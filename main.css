@@ -67,7 +67,7 @@ header#mainHeader ul li a:hover {
 	color: blue;
 }
 
-section#content {
+content#content {
 	float: left;
 	width: 600px;
 	padding: 0 10px 0 25px;
@@ -75,10 +75,31 @@ section#content {
 	border-right: 1px solid #7f7f7f;
 }
 
-section#content p {
-	color: #666;
+content#content h2{
+	color: maroon;
+	font: 200% Courier;
+}
+
+content#content h3 {
+	color: maroon;
+	font: 150% Courier
+}
+
+content#content h4 {
+	color: maroon;
+	font: 125% Courier
+}
+
+content#content p {
+	color: maroon;
+	font: 100% Courier;
 	line-height: 1.6;
 	margin-bottom: 10px;
+}
+
+content#content ul li {
+	color: maroon;
+	font: 100% Courier
 }
 
 aside#hobbies {
