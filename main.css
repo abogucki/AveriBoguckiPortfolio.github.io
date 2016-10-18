@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-	font:200% courier;
+	font:185% courier;
 	color: maroon;
 }
 
@@ -52,7 +52,7 @@ header#mainHeader ul li {
 
 header#mainHeader ul li a {
 	font-family: courier;
-	font-size: 20px;
+	font-size: 18px;
 	color: maroon;
 	padding: 0 20px;
 	border-right: 1px solid #000;
